@@ -163,7 +163,7 @@ export const constantRoutes = [
 
 const createRouter = () => VueRouter.createRouter({
   // mode: 'history', // require service support
-  scrollBehavior: () => ({ y: 0 }),
+  scrollBehavior: () => ({ top: 0 }),
   history: VueRouter.createWebHashHistory(),
   routes: constantRoutes
 })
